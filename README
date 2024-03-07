@@ -1,0 +1,10 @@
+1. Clone https://github.com/BlokasLabs/linux-debian.git
+2. Build v6, v7, v7l, v8, 2712 flavours according to the link below:
+
+	https://wiki.debian.org/HowToCrossBuildAnOfficialDebianKernelPackage
+
+
+Updating the kernel:
+
+* Use env_setup.sh to download original kernel based on RPi firmware / kernel commit.
+* Use gen_patch.sh to generate a rpi.patch file to be placed in linux-debian.
